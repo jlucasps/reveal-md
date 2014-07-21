@@ -2,16 +2,26 @@
 
 [reveal.js](http://lab.hakim.se/reveal-js/#/) on steroids! Get beautiful reveal.js presentations from your Markdown files.
 
+## Clarifications
+
+This repository is a fork of [abelnation/reveal-md](https://github.com/abelnation/reveal-md).
+
+Thanks to [@abelnation](https://github.com/abelnation) to add code highlight on his fork of the original project [webpro/reveal-md](https://github.com/webpro/reveal-md).
+
 ## Installation
 
+Create a sym link to you local bin version:
+
 ``` bash
-npm install -g reveal-md
+sudo ln -s /path/to/you/clone/repo/reveal-md/bin/server-cli.js /usr/local/bin/reveal-mdc
 ```
 
 ## Quick demo
 
+Execute your local version passing the path of your *.md file:
+
 ``` bash
-reveal-md demo
+reveal-mdc path/to/README.md
 ```
 
 ## Markdown in reveal.js
